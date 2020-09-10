@@ -1,0 +1,90 @@
+#topnav {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    table-layout: fixed;
+    top: 0;
+    width: 100%;
+    border-collapse: separate;
+    background-color: gray;
+  }
+
+
+/* Place the navbar at the bottom of the page, and make it stick */
+.bottomleftbar {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .bottomleftbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    z-index: 1;
+  }
+  
+  /* Change the color of links on hover */
+  .bottomleftbar a:hover {
+    text-emphasis: underline;
+  }
+  
+  /* Add a color to the active/current link */
+  .bottomleftbar a.active {
+    text-emphasis: underline;
+  }
+
+/* Place the navbar at the bottom of the page, and make it stick */
+.bottomrightbar {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .bottomrightbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    z-index: 1;
+  }
+  
+  /* Change the color of links on hover */
+  .bottomrightbar a:hover {
+    text-emphasis: underline;
+  }
+  
+  /* Add a color to the active/current link */
+  .bottomrightbar a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+li {
+    display: inline;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+button {
+    padding: 5px;
+    margin: 2px;
+}
+
