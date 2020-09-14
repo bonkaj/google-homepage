@@ -1,4 +1,4 @@
-#topnav {
+.topnav {
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -6,72 +6,57 @@
     top: 0;
     width: 100%;
     border-collapse: separate;
-    background-color: gray;
-  }
+    background-color: none;
+    clear: both;
+    content: "";
+}
 
-
-/* Place the navbar at the bottom of the page, and make it stick */
-.bottomleftbar {
-    overflow: hidden;
+.bottomnav {
+    display: table;
+    clear: both;
+    content: "";
+    justify-content: space-between;
     position: fixed;
+    table-layout: fixed;
     bottom: 0;
     width: 100%;
-    z-index: 1000;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .bottomleftbar a {
+    border-collapse: separate;
+    background-color: #e9e5e5;
+}
+
+.bottomleftnav {
     float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    z-index: 1;
-  }
-  
-  /* Change the color of links on hover */
-  .bottomleftbar a:hover {
-    text-emphasis: underline;
-  }
-  
-  /* Add a color to the active/current link */
-  .bottomleftbar a.active {
-    text-emphasis: underline;
-  }
+}
 
-/* Place the navbar at the bottom of the page, and make it stick */
-.bottomrightbar {
-    overflow: hidden;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    z-index: 1000;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .bottomrightbar a {
+.bottomrightnav {
     float: right;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
+}
+
+a {
     text-decoration: none;
-    font-size: 17px;
-    z-index: 1;
-  }
-  
-  /* Change the color of links on hover */
-  .bottomrightbar a:hover {
-    text-emphasis: underline;
-  }
-  
-  /* Add a color to the active/current link */
-  .bottomrightbar a.active {
-    background-color: #4CAF50;
-    color: white;
-  }
+    color: #a09e9e;
+}
+a:visited {
+    color: #a09e9e;
+}
+
+.search {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    margin-bottom: auto;
+
+}
+textarea {
+    margin-left: auto;
+    margin-right: auto;
+}
 
 li {
     display: inline;
